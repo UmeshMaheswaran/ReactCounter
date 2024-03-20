@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: solid grey 2px;
+}
+
+.Titre {
+  display: flex;
+
+  line-height: 150px;
+
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+
+  /* margin-top: 25px; */
+  /* margin-left: 25px; */
+}
+
+.logo {
+  margin-top: 50px;
+  height: 55px;
+  margin-right: 43px;
+  margin-left: 100px;
+}
+
+.Rectangle {
+  width: 130px;
+  height: 130px;
+  margin-left: 880px;
+  margin-top: 300px;
+  border: solid black 2px;
+  background-color: #5c48d3;
+  border-radius: 20%;
+}
+p {
+  font-size: 65px;
+  line-height: 20px;
+  text-align: center;
+  line-height: 130px;
+}
+
+.signes {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
